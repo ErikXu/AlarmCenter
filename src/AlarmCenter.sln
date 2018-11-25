@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmCenter.AlarmApi", "Ala
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmCenter.AlarmProcess", "AlarmCenter.AlarmProcess\AlarmCenter.AlarmProcess.csproj", "{993CC740-3E54-45C8-B4AD-BABA53A1DE27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlarmCenter.Entity", "AlarmCenter.Entity\AlarmCenter.Entity.csproj", "{71C41AC3-D92C-4F6E-8C4C-7DEB3DED0910}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{993CC740-3E54-45C8-B4AD-BABA53A1DE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{993CC740-3E54-45C8-B4AD-BABA53A1DE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{993CC740-3E54-45C8-B4AD-BABA53A1DE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C41AC3-D92C-4F6E-8C4C-7DEB3DED0910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C41AC3-D92C-4F6E-8C4C-7DEB3DED0910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C41AC3-D92C-4F6E-8C4C-7DEB3DED0910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C41AC3-D92C-4F6E-8C4C-7DEB3DED0910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
