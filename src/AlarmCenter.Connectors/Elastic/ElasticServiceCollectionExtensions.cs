@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nest;
 
-namespace AlarmCenter.Connectors.ElasticSearch
+namespace AlarmCenter.Connectors.Elastic
 {
     public static class ElasticServiceCollectionExtensions
     {

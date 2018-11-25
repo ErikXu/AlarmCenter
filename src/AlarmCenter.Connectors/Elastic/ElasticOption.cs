@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 
-namespace AlarmCenter.Connectors.ElasticSearch
+namespace AlarmCenter.Connectors.Elastic
 {
     public class ElasticOption
     {
