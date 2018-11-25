@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.0" />
     <PackageReference Include="NEST" Version="6.4.0" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
   </ItemGroup>
 
 </Project>
