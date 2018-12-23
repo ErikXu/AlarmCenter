@@ -1,5 +1,6 @@
 ﻿using System;
-using AlarmCenter.OplogService.Events;
+using AlarmCenter.Entities.Events;
+using AlarmCenter.Entities.Models;
 using AlarmCenter.OplogService.Models;
 using AlarmCenter.Utils.Conversion;
 using AlarmCenter.Utils.Serialization;

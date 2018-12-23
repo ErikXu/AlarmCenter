@@ -1,6 +1,6 @@
-﻿using AlarmCenter.OplogService.Models;
+﻿using AlarmCenter.Entities.Models;
 
-namespace AlarmCenter.OplogService.Events
+namespace AlarmCenter.Entities.Events
 {
     public class LogCreatedEvent
     {

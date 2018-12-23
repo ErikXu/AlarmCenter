@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AlarmCenter.OplogService.Models
+namespace AlarmCenter.Entities.Models
 {
     public class Oplog
     {

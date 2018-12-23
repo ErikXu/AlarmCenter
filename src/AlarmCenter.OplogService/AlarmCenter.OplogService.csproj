@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AlarmCenter.Connectors\AlarmCenter.Connectors.csproj" />
+    <ProjectReference Include="..\AlarmCenter.Entities\AlarmCenter.Entities.csproj" />
     <ProjectReference Include="..\AlarmCenter.Utils\AlarmCenter.Utils.csproj" />
   </ItemGroup>
 

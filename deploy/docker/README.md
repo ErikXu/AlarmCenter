@@ -14,7 +14,7 @@ docker run --name mongodb --restart always -d  -v /opt/mongo:/data/db/ -p 27017:
 
 ## Install ElasticSearch
 mkdir -p /opt/elasticsearch
-docker run -d --name elasticsearch --net es-net -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" elasticsearch:5.6-alpine
+docker run --name elasticsearch --restart always -d -v /opt/elasticsearch:/usr/share/elasticsearch/data -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.0.0-alpha2
 
 ## Install Kibana
 docker run -d --name kibana --net es-net -p 5601:5601 kibana:5.6

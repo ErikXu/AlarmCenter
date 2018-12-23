@@ -1,4 +1,5 @@
-﻿using AlarmCenter.OplogService.Models;
+﻿using AlarmCenter.Entities.Models;
+using AlarmCenter.OplogService.Models;
 using AutoMapper;
 
 namespace AlarmCenter.OplogService.Profiles
